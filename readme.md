@@ -90,5 +90,5 @@ The solver reports:
 
 ---
 
-License
+# License
 This project is licensed under the All Rights Reserved. See the LICENSE file for details.
