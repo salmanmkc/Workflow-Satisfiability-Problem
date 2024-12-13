@@ -91,7 +91,7 @@ def solve(instance):
         # 0, 1, 11, 14, 15, 19 sat but unsat in solution
 
         # file = sys.argv[1]
-        file = 'instances/example19.txt'
+        file = 'instances/example17.txt'
         inst = read_file(file)
         model = cp_model.CpModel()
         M = []
@@ -140,7 +140,6 @@ def solve(instance):
                 model.Add(M[u-1][s-1] == 0).OnlyEnforceIf(M[u-1][counterpairmatrix])
                 model.Add(M[u-1][counterpairmatrix] == 0).OnlyEnforceIf(M[u-1][s-1])
                         # print('')
-                        
         # every step needs one user
         for i in range(len(M[0])):
             model.Add(sum(stepdict[i+1]) == 1)
@@ -253,7 +252,6 @@ def solve(instance):
         # print('starting solve')
         starttime = int(currenttime() * 1000)
         solver = cp_model.CpSolver()
-        # solver.parameters.num_search_workers = 8
         status = solver.Solve(model)
         endtime = int(currenttime() * 1000)
         
