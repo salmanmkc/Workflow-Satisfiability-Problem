@@ -67,18 +67,6 @@ Run the solver by specifying the input file or constraints directly:
    python workflowSatisfiabilityProblem.py instances/example1.txt
    ```
 
-2. **Custom Constraints Example**:
-   ```bash
-   python workflowSatisfiabilityProblem.py 1 1 5 3 2 2 1 10 5
-   ```
-
-   This example:
-   - Prints in standard format.
-   - Solves for all solutions.
-   - Includes 5 authorisation constraints, 3 binding constraints, etc.
-
----
-
 ## Developer Notes
 
 ### Key Files
