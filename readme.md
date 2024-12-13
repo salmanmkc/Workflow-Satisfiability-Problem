@@ -1,7 +1,3 @@
-Here is a suggested README for your workflow satisfiability problem solution: 
-
----
-
 # Workflow Satisfiability Problem (WSP) Solver
 
 This repository contains a Python implementation of a solver for the Workflow Satisfiability Problem (WSP). The solution leverages Google OR-Tools and Constraint Programming (CP) to handle various constraints efficiently.
@@ -26,6 +22,7 @@ Ensure you have Python installed and run the following command to install the re
 
 ```bash
 python -m pip install --upgrade --user ortools
+python -m pip install --upgrade --user numpy
 ```
 
 ---
@@ -105,3 +102,5 @@ The solver reports:
 
 ---
 
+License
+This project is licensed under the All Rights Reserved. See the LICENSE file for details.
