@@ -1,6 +1,6 @@
 # Workflow Satisfiability Problem (WSP) 
 
-Note: this is code I did in 2021 December/2022 January so it may be quite sloppy to my current day stndards
+Note: this is code I did in 2021 December/2022 January so it may be quite sloppy to my current day standards.
 
 This repository contains a Python implementation of a solver for the Workflow Satisfiability Problem (WSP). The solution leverages Google OR-Tools and Constraint Programming (CP) to handle various constraints efficiently.
 
